@@ -12,7 +12,7 @@ class Array:
         for i in range(self._len):
             new_array.add(i, self._data[i])
         self._cap = new_cap
-        self._data = new_array._datata
+        self._data = new_array._data
     
     def check_index(self, index):
         if index < 0 or index > self._len:
