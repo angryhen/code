@@ -47,4 +47,4 @@ class Array:
 if __name__ == '__main__':
     a = Array(data = [1,2,3,4,5])
     # 打印
-    a._print()1
+    a._print()
