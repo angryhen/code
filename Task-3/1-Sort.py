@@ -50,9 +50,38 @@ def Quick_sort(nums, l, r):
         Quick_sort(nums, index+1, r)
     return nums      
     
-
+# 归并排序
+def merge(l, r):
+    res = []
+    i = j = 0
+    while i <len(l) and j < len(r):
+        if l[i] < r[j]:
+            res.append(l[i])
+            i += 1
+        else:
+            res.append(r[j])
+            j += 1
+    if i == len(l):
+        res += r[j:]
+    else:
+        res += l[i:]
+    return res
     
+def Merge_sort(nums):
+    if len(nums) <= 1:
+        return nums
+    middle = len(nums) // 2
+    left = Merge_sort(nums[:middle])
+    right = Merge_sort(nums[middle:])
+    return merge(left, right)
     
+if __name__ == '__main__':
+    nums = [2,5,1,5,8,6,9,3]
+    Bubble_sort(nums)
+    Selection_sort(nums)
+    Insertion_sort(nums)
+    Quick_sort(nums, 0, len(nums)-1)
+    Merge_sort(nums)    
     
     
     
