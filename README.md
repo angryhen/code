@@ -1,5 +1,4 @@
 
-
 # All Tasks
 
 ## **~~Task 1：数组和链表（2天）~~**
@@ -90,9 +89,9 @@
     - 英文版：[https://leetcode.com/problems/sqrtx/](https://leetcode.com/problems/sqrtx/)
     - 中文版：[https://leetcode-cn.com/problems/sqrtx/](https://leetcode-cn.com/problems/sqrtx/)
 
-## Task 4：散列表(哈希表) + 字符串 (3天) **【****当前任务****】**
+## ~~Task 4：散列表(哈希表) + 字符串 (~~~~4~~~~天) ~~
 
-**时间：2019-08-1****2**** 21:00 - 2019-08-15 21:00**
+**时间：2019-08-1****2**** 21:00 - 2019-08-1****6**** 21:00**
 
 - 【散列表（哈希表）】
   - 实现一个基于链表法解决冲突问题的散列表
@@ -114,9 +113,9 @@
     - 英文版：[https://leetcode.com/problems/string-to-integer-atoi/](https://leetcode.com/problems/string-to-integer-atoi/)
     - 中文版：[https://leetcode-cn.com/problems/string-to-integer-atoi/](https://leetcode-cn.com/problems/string-to-integer-atoi/)
 
-## Task 5：二叉树 + 堆 (2天)
+## Task 5：二叉树 + 堆 (2天) 
 
-**时间：2019-08-15 21:00 - 2019-08-17 21:00**
+**时间：2019-08-16 21:00 - 2019-08-18 21:00**
 
 - 【二叉树】
   - 实现一个二叉查找树，并且支持插入、删除、查找操作
@@ -143,6 +142,61 @@
     - 英文版：[https://leetcode.com/problems/path-sum/](https://leetcode.com/problems/path-sum/)
     - 中文版：[https://leetcode-cn.com/problems/path-sum/](https://leetcode-cn.com/problems/path-sum/)
 
-## Task 6：图 (2天)
+## Task 6：图 (3天)**【****当前任务****】**
+
+**时间：2019-08-18 21:00 - 2019-08-2****1**** 21:00**
+
+- 【图】
+  - 实现有向图、无向图、有权图、无权图的邻接矩阵和邻接表表示方法
+  - 实现图的深度优先搜索、广度优先搜索
+  - 实现 Dijkstra 算法
+  - 实现拓扑排序
+- 【对应的 LeetCode 练习题】
+  - Number of Islands（岛屿的个数）
+    - 英文版：[https://leetcode.com/problems/number-of-islands/description/](https://leetcode.com/problems/number-of-islands/description/)
+    - 中文版：[https://leetcode-cn.com/problems/number-of-islands/description/](https://leetcode-cn.com/problems/number-of-islands/description/)
+  - Valid Sudoku（有效的数独）
+    - 英文版：[https://leetcode.com/problems/valid-sudoku/](https://leetcode.com/problems/valid-sudoku/)
+    - 中文版：[https://leetcode-cn.com/problems/valid-sudoku/](https://leetcode-cn.com/problems/valid-sudoku/)
 
 ## Task 7：递归 + 回溯 + 分治 + 动态规划 (2天)
+
+**时间：2019-08-21 21:00 - 2019-08-23 21:00**
+
+- 【递归】
+  - 通过LeetCode上【70. 爬楼梯】学习（建议）
+- 【回溯】
+  - 利用回溯算法求解八皇后问题
+  - 利用回溯算法求解 0-1 背包问题
+- 【分治】
+  - 利用分治算法求一组数据的逆序对个数
+- 【动态规划】
+  - 0-1 背包问题
+  - 最小路径和（详细可看 Minimum Path Sum）
+  - 编程实现莱文斯坦最短编辑距离
+  - 编程实现查找两个字符串的最长公共子序列
+  - 编程实现一个数据序列的最长递增子序列
+- 【对应的 LeetCode 练习题】
+  - 实战递归：完成Leetcode上的Letter Combinations of a Phone Number(17)及permutations(46)
+  - 实战DP：完成0-1背包问题实现(自我实现)及Leetcode上Palindrome Partitioning II(132) 
+  - Regular Expression Matching（正则表达式匹配）
+    - 英文版：[https://leetcode.com/problems/regular-expression-matching/](https://leetcode.com/problems/regular-expression-matching/)
+    - 中文版：[https://leetcode-cn.com/problems/regular-expression-matching/](https://leetcode-cn.com/problems/regular-expression-matching/)
+  - Minimum Path Sum（最小路径和）
+    - 英文版：[https://leetcode.com/problems/minimum-path-sum/](https://leetcode.com/problems/minimum-path-sum/)
+    - 中文版：[https://leetcode-cn.com/problems/minimum-path-sum/](https://leetcode-cn.com/problems/minimum-path-sum/)
+  - Coin Change （零钱兑换）[作为可选]
+    - 英文版：[https://leetcode.com/problems/coin-change/](https://leetcode.com/problems/coin-change/)
+    - 中文版：[https://leetcode-cn.com/problems/coin-change/](https://leetcode-cn.com/problems/coin-change/)
+  - Best Time to Buy and Sell Stock（买卖股票的最佳时机）[作为可选]
+    - 英文版：[https://leetcode.com/problems/best-time-to-buy-and-sell-stock/](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+    - 中文版：[https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)
+  - Maximum Product Subarray（乘积最大子序列）[作为可选]
+    - 英文版：[https://leetcode.com/problems/maximum-product-subarray/](https://leetcode.com/problems/maximum-product-subarray/)
+    - 中文版：[https://leetcode-cn.com/problems/maximum-product-subarray/](https://leetcode-cn.com/problems/maximum-product-subarray/)
+  - Triangle（三角形最小路径和）[作为可选]
+    - 英文版：[https://leetcode.com/problems/triangle/](https://leetcode.com/problems/triangle/)
+    - 中文版：[https://leetcode-cn.com/problems/triangle/](https://leetcode-cn.com/problems/triangle/)
+
+# 
+
